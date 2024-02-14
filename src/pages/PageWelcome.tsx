@@ -14,7 +14,7 @@ export const PageWelcome = () => {
 				This site has <strong>{jobs.length}</strong> jobs and{' '}
 				<strong>{skills.length}</strong> skills.
 			</p>
-			<p>Test Update 3</p>
+			<p>Test Update 4</p>
 		</div>
 	);
 };
