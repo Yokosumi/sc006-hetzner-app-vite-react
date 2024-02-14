@@ -10,7 +10,11 @@ export const PageWelcome = () => {
 			<Helmet>
 				<title>{appTitle} - Welcome</title>
 			</Helmet>
-			<p>This site has <strong>{jobs.length}</strong> jobs and <strong>{skills.length}</strong> skills.</p>
+			<p>
+				This site has <strong>{jobs.length}</strong> jobs and{' '}
+				<strong>{skills.length}</strong> skills.
+			</p>
+			<p>Test Update</p>
 		</div>
 	);
 };
