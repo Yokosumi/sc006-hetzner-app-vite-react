@@ -7,8 +7,8 @@
 		"dev": "vite --open",
 		"build": "tsc && vite build",
 		"start": "vite serve --host --port 3555",
-		"setup": "npm i && npm run build && pm2 start --name tanguayeu-mainsitereact npm -- start --update-env --time && pm2 save",
-		"deploy": "git pull --no-rebase && npm i && npm run build && pm2 restart tanguayeu-mainsitereact --update-env --time && pm2 save",
+		"setup": "npm i && npm run build && pm2 start --name sc006-hetzner-app-vite-reac npm -- start --update-env --time && pm2 save",
+		"deploy": "git pull --no-rebase && npm i && npm run build && pm2 restart sc006-hetzner-app-vite-react --update-env --time && pm2 save",
 		"preview": "vite preview",
 		"cp": "node cli/cp.mjs"
 	},
